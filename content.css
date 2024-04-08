@@ -1,0 +1,18 @@
+ul._anchor-bay-urls{
+  background-color: aquamarine;
+  border-radius: 8px;
+  padding-top: 8px;
+  line-height: 2em;
+  font-family: sans-serif;
+}
+ul._anchor-bay-urls li {
+  font-size: larger;
+}
+
+ul._anchor-bay-urls::after {
+  margin-top: 4px;
+  content: "by Anchorbay";
+  display: block;
+  font-size: x-small;
+  clear: both;
+}
